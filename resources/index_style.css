@@ -1,0 +1,51 @@
+/*
+Blue: #080bb2
+Light blue: #00a1fd
+silver: #bfc9cb
+*/
+
+body {
+	background-color: #bfc9cb;
+	padding: 0 24px 36px 24px; /*padding on the body*/
+}
+
+a {
+	color: #080bb2;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #00a1fd;
+}
+
+h1, h2 {
+	color: #080bb2;
+}
+
+h1 {
+	text-align: center;
+}
+p.picture{
+	text-align: center;
+	padding: 24px 24px 36px 24px
+}
+img {
+	margin-right: 20px;
+	border: #00a1fd solid 3px;
+}
+
+p, li, table {
+	font-size: 1.2em;
+}
+
+th, td {
+	
+	border: #080bb2 solid 2px;
+	padding: 6px 12px 8px 16px; /* top, right, bottom, left */
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}

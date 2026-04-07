@@ -1,0 +1,51 @@
+/*
+  white: #FFFFFF
+  Box model green: #bee3d2
+  Accent 1: #557a69
+  Accent 2: #7A5566
+*/
+
+body {
+  background-color: #FFFFFF;
+}
+
+h1, h2, h3{
+  color: #557a69;
+}
+
+th, td {
+  
+  border: #7A5566 solid 2px;
+  padding: 6px 12px 8px 16px; /* top, right, bottom, left */
+}
+
+table {
+  border-collapse: collapse;
+}
+
+a{
+  color: #557a69;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:hover{
+  color: #7A5566;
+}
+
+p.text {
+  background-color: #557a69;
+  color: #FFFFFF;
+  width: 500px;
+  margin-left: 50px;
+  margin-right: auto;
+
+}
+
+div{
+  width: 646px;
+  padding: 6px 12px 8px 16px;
+  border: #7A5566 dotted 3px;
+  margin-left: 50px;
+  margin-right: auto;
+
+}
